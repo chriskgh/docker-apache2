@@ -1,6 +1,8 @@
 # docker-apache2-redirect
+from https://coreos.com/os/docs/latest/getting-started-with-docker.html
 
-from [https://coreos.com/os/docs/latest/getting-started-with-docker.html]
+Docker project for setting up an apache2 server with a minimal working redirect configuration.
+
 
 ## build image
 	./build.sh
