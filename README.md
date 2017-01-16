@@ -12,6 +12,8 @@ Docker project for setting up an apache2 server with a minimal working redirect 
 	./run.sh
 	docker run -it -p 80:80 ckapik/apache2
 	docker run -d -p 80:80 ckapik/apache2 /usr/sbin/apache2ctl -D FOREGROUND
+## run a 2nd container on port 8080
+	docker run --rm --name=apache2b -it -p 8080:80 ckapik/apache2
 
 ## connect to container 
 	docker exec -i -t apache2 /bin/bash
